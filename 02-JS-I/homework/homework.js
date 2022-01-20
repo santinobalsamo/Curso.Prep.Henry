@@ -63,7 +63,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código: 
-  if (return str1.lenght === return str2.lenght)
+  if (str1.lenght === str2.lenght)
   {return true;} {return false;}
 }
 
@@ -72,8 +72,8 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código: 
   if (num < 90)
-  {ruturn true;}
-  {return false;}
+  { true}
+  {return false}
 
   
 }
@@ -90,8 +90,8 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  
-}
+  if ( x/y) 
+
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
@@ -248,5 +248,4 @@ module.exports = {
   retornarPerimetro,
   areaDelTriangulo,
   deEuroAdolar,
-  esVocal,
-};
+  esVocal, 
