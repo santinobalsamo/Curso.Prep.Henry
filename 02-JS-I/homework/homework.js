@@ -33,12 +33,12 @@ function devolverString(str) {
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
-  // Tu código: return x + y 
+  // Tu código: return x+y
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
-  // Tu código: return x - y
+  // Tu código: return x-y
 }
 
 function multiplica(x, y) {
@@ -65,7 +65,8 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código: 
   if (str1.lenght === str2.lenght)
-  {return true;} {return false;}
+  {return true;}
+   {return false;}
 }  
 
 function menosQueNoventa(num) {
@@ -74,6 +75,7 @@ function menosQueNoventa(num) {
   // Tu código: 
   if (num < 90)
   {return true}
+  else
   {return false}
 
   
@@ -91,7 +93,8 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  return x%y 
+  return x % y 
+}
 
 
 function esPar(num) {
@@ -144,7 +147,7 @@ function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
   return math.ceil(num)
-
+}
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
